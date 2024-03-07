@@ -4337,7 +4337,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Arr.Exps.IndexOf,
 		C3.Plugins.Arr.Acts.Push,
 		C3.Plugins.Arr.Acts.Pop,
+		C3.Plugins.System.Acts.SetBoolVar,
 		C3.Plugins.System.Cnds.IsGroupActive,
+		C3.Plugins.System.Cnds.CompareBoolVar,
 		C3.Plugins.Sprite.Acts.Spawn,
 		C3.Plugins.System.Acts.AddVar,
 		C3.Plugins.Sprite.Cnds.CompareFrame,
@@ -4435,7 +4437,8 @@ self.C3_JsPropNameTable = [
 	{a: 0},
 	{b: 0},
 	{x: 0},
-	{dogru: 0}
+	{dogru: 0},
+	{tiklandi: 0}
 ];
 
 self.InstanceType = {
